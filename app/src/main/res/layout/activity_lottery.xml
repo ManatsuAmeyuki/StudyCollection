@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/weclome_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_cartoon"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <com.csh.studycollection.view.XButton
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_score"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:text="+ 0"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/box_lottery"
+        android:layout_centerInParent="true"
+        />
+
+    <com.csh.studycollection.view.XButton
+        android:id="@+id/lottery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_lottery10"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="50dp"
+        android:text="- 10"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+    <com.csh.studycollection.view.XButton
+        android:id="@+id/lottery10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_lottery1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="50dp"
+        android:text="- 20"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

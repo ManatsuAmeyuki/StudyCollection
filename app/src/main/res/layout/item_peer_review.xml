@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.csh.studycollection.view.NiceImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_pic"
+        android:layout_margin="20dp"
+        app:corner_radius="8dp"
+        app:border_color="@color/purple_8F8FFF"
+        app:border_width="1dp"
+        />
+    <TextView
+        android:id="@+id/tvQuestion"
+        tool:text="七十一接口科技的离开家了简单两款金额七十一接口科技的离开家了简单两款金额七十一接口科技的离开家了简单两款金额七十一接口科技的离开家了简单两款金额七十一接口科技的离开家了简单两款金额七十一接口科技的离开家了简单两款金额"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textSize="15sp"
+        android:textColor="@color/purple_8F8FFF"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:text="说两句..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="13sp"
+        android:textColor="@color/blue_87C2FF"
+        />
+
+    <View
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/item_line"
+        />
+</LinearLayout>

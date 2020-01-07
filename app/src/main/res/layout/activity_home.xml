@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_home"
+    android:layout_height="match_parent">
+
+    <com.csh.studycollection.view.XTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:text="学   集"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/title"
+        />
+
+    <ImageView
+        android:id="@+id/ivSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/title"
+        android:padding="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_setting"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        >
+        <com.csh.studycollection.view.XButton
+            android:id="@+id/studyBtn"
+            android:background="@drawable/bg_btn_green"
+            android:layout_width="wrap_content"
+            android:text="开始做题"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <com.csh.studycollection.view.XButton
+            android:id="@+id/integralBtn"
+            android:text="卡片搜集"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_btn_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- 选题loading -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/loading"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <com.king.view.circleprogressview.CircleProgressView
+            android:id="@+id/circleProgressView"
+            app:cpvProgressColor="@color/blue_4CAEFD"
+            app:cpvNormalColor="@color/blue_87C2FF"
+            app:cpvLabelTextColor="@color/blue_4286ED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智能选题中..."
+            android:textSize="20sp"
+            android:textColor="@color/blue_87C2FF" />
+    </LinearLayout>
+
+</RelativeLayout>

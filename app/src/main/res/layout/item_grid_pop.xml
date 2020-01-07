@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/itemTv"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_click_bg_corners10_white_grey"
+        android:gravity="center"
+        android:textColor="@color/textColor666"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        tool:text="初一"/>
+
+</LinearLayout>

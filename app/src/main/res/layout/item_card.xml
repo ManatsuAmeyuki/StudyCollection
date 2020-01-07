@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:background="@drawable/bg_card_item"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tool:text="初级"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tool:text="1000"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:ellipsize="end"
+        android:layout_below="@id/tvName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tool:text="安乐死快点放假了三款酒店发生了肯定积分阿斯利康的分安乐死快点放假了三款酒店发生了肯定积分阿斯利康的分安乐死快点放假了三款酒店发生了肯定积分阿斯利康的分"
+        />
+</RelativeLayout>

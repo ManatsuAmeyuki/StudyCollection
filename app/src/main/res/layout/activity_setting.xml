@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.csh.studycollection.view.NiceImageView
+        android:id="@+id/avatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/avatar"
+        app:border_color="#FFFFFF"
+        app:border_width="1dp"
+        app:is_circle="true"/>
+
+    <com.csh.studycollection.view.XTextView
+        android:id="@+id/tvUserName"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi，欢迎来到学集"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignTop="@id/avatar"
+        />
+
+    <com.csh.studycollection.view.XTextView
+        android:id="@+id/tvArea"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tool:text="地区"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_alignLeft="@id/tvUserName"
+        android:layout_alignBottom="@id/avatar"
+        android:layout_marginBottom="10dp"
+        />
+    <com.csh.studycollection.view.XTextView
+        android:id="@+id/tvGrade"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tool:text="， 年级"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@id/avatar"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/tvArea"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_below="@id/avatar"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/llGrade"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+            <ImageView
+                android:id="@+id/ivGradeSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting1" />
+            <com.csh.studycollection.view.XTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="选择年级" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llArea"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+            <ImageView
+                android:id="@+id/ivAreaSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting2" />
+            <com.csh.studycollection.view.XTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="选择地区" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llPeerReview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+            <ImageView
+                android:id="@+id/ivPeerReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting4" />
+            <com.csh.studycollection.view.XTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:text="赚取积分" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llCard"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+            <ImageView
+                android:id="@+id/ivCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting_card" />
+            <com.csh.studycollection.view.XTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:text="我的卡片" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvUserName"
+        android:layout_alignBottom="@id/avatar"
+        android:layout_alignTop="@id/avatar"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_exit" />
+
+
+</RelativeLayout>

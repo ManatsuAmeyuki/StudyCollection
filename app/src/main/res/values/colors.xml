@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87C2FF</color>
+    <color name="colorPrimaryDark">#87C2FF</color>
+    <color name="colorAccent">#87C2FF</color>
+
+    <!-- 主视觉 -->
+    <color name="global_primary_color">#87C2FF</color>
+    <color name="bg">#EFEFEF</color>
+    <color name="white">#fff</color>
+
+    <color name="textColorA5A5A5">#A5A5A5</color>
+    <color name="textColor999">#999999</color>
+    <color name="textColor666">#666666</color>
+    <color name="textColor5C5C57">#5C5C57</color>
+    <color name="textColor555">#555555</color>
+    <color name="textColor444">#444444</color>
+    <color name="textColor333">#333333</color>
+
+    <color name="grey_E5E5E5">#E5E5E5</color>
+    <color name="grey_CCC">#CCCCCC</color>
+    <color name="red_FF5F49">#FF5F49</color>
+    <color name="red_FB1C1C">#FB1C1C</color>
+    <color name="blue_4286ED">#4286ED</color>
+    <color name="blue_4CAEFD">#4CAEFD</color>
+    <color name="blue_87C2FF">#87C2FF</color>
+    <color name="green_00CE65">#00CE65</color>
+    <color name="green_2EB78B">#2EB78B</color>
+    <color name="green_25C71D">#25C71D</color>
+    <color name="orange_FFAC54">#FFAC54</color>
+    <color name="orange_FAD0A6">#FAD0A6</color>
+    <color name="orange_FE7E54">#FE7E54</color>
+    <color name="purple_B567DA">#B567DA</color>
+    <color name="purple_8F8FFF">#8F8FFF</color>
+</resources>

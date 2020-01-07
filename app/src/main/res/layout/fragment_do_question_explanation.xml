@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_do_question"
+    android:layout_height="match_parent">
+
+    <com.csh.studycollection.view.XTextView
+        android:id="@+id/topicTypeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tool:text="解答题"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignLeft="@id/topicTypeTv"
+        android:layout_below="@id/topicTypeTv"
+        android:background="@drawable/divider"
+        />
+
+    <com.csh.studycollection.view.XTextView
+        android:id="@+id/questionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tool:text="1、快速连接到了风科技奥斯卡大路上看到积分卡洛斯？"
+        android:layout_below="@id/line"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_camera_btn"
+        android:layout_below="@id/questionTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:maxWidth="400dp"
+        android:maxHeight="200dp"
+        />
+
+</RelativeLayout>
