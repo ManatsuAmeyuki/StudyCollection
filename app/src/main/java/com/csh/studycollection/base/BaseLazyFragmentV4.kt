@@ -12,9 +12,7 @@ import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
-/**
- * created by shenghuiche on 2018/8/27
- */
+
 abstract class BaseLazyFragmentV4 : Fragment() {
 
     protected var rootView: View? = null

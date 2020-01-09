@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.king.view:circleprogressview:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a06f99e47a20678c72b89b260f2df9/circleprogressview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/15a06f99e47a20678c72b89b260f2df9/circleprogressview-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.king.view/circleprogressview/1.1.0/ccd2a71ad4c33c325277d84a4e41fb670cc90eb/circleprogressview-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.king.view/circleprogressview/1.1.0/bba8b3adaf49aad362c4204c54aca0fb149d1ca0/circleprogressview-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

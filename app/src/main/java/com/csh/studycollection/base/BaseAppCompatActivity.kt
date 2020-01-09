@@ -15,9 +15,6 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
 
-/**
- * created by shenghuiche on 2018/12/20
- */
 abstract class BaseAppCompatActivity : AppCompatActivity() {
 
     val mLifeCycleSubj = PublishSubject.create<ActivityLifeCycleEvent>()

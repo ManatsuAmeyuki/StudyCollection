@@ -12,9 +12,7 @@ import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
-/**
- * created by shenghuiche on 2018/12/20
- */
+
 abstract class BaseFragmentV4: androidx.fragment.app.Fragment() {
 
     var mAct: Activity? = null

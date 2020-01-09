@@ -9,9 +9,7 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.tbruyelle.rxpermissions2.RxPermissions
 
 
-/**
- * created by shenghuiche on 2018/11/22
- */
+
 object PermissionUtils {
 
     fun requestPermissionsEach(

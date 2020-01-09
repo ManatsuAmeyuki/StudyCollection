@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/sizhuowuyan/Desktop/StudyCollection-master-60befb98b2ca7b3b38f6f8706af427de14c043b7StudyCollection.git/app/src/debug/java;/Users/sizhuowuyan/Desktop/StudyCollection-master-60befb98b2ca7b3b38f6f8706af427de14c043b7StudyCollection.git/app/src/release/kotlin;/Users/sizhuowuyan/Desktop/StudyCollection-master-60befb98b2ca7b3b38f6f8706af427de14c043b7StudyCollection.git/app/src/release/java;/Users/sizhuowuyan/Desktop/StudyCollection-master-60befb98b2ca7b3b38f6f8706af427de14c043b7StudyCollection.git/app/src/debugAndroidTest/kotlin;/Users/sizhuowuyan/Desktop/StudyCollection-master-60befb98b2ca7b3b38f6f8706af427de14c043b7StudyCollection.git/app/src/debugUnitTest/kotlin;/Users/sizhuowuyan/Desktop/StudyCollection-master-60befb98b2ca7b3b38f6f8706af427de14c043b7StudyCollection.git/app/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/sizhuowuyan/StudyCollection/app/src/debug/java;/Users/sizhuowuyan/StudyCollection/app/src/release/kotlin;/Users/sizhuowuyan/StudyCollection/app/src/release/java;/Users/sizhuowuyan/StudyCollection/app/src/debugAndroidTest/kotlin;/Users/sizhuowuyan/StudyCollection/app/src/debugUnitTest/kotlin;/Users/sizhuowuyan/StudyCollection/app/src/releaseUnitTest/kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>

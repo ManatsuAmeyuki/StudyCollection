@@ -5,9 +5,7 @@ import android.app.Application
 import android.content.ComponentCallbacks
 import android.content.res.Configuration
 
-/**
- * created by shenghuiche on 2019/3/6
- */
+
 object ScreenAdapteUtil {
 
     private var sNoncompatDensity: Float = 0.0f
